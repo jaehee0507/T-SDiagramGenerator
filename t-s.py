@@ -75,10 +75,10 @@ class TSDGenerator:
         self.maxSalnEntry.insert(0, str(self.maxSaln))
 
         tempLabel = tkinter.Label(window, font=("맑은 고딕", 11),
-                                  text="==========================<등밀도선 간격>==========================")
+                                  text="==========================<등밀도선 개수>==========================")
         tempLabel.place(x=0, y=260, relwidth=1.0)
 
-        denseLevelLabel = tkinter.Label(window, font=("맑은 고딕", 11), text="등밀도선 간격 = ")
+        denseLevelLabel = tkinter.Label(window, font=("맑은 고딕", 11), text="등밀도선 개수 = ")
         denseLevelLabel.place(x=0, y=285, width=150)
 
         self.densLevelEntry = tkinter.Entry(window)
