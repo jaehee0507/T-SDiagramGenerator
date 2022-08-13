@@ -35,7 +35,7 @@ class TSDGenerator:
         title.place(x=0, y=0, relwidth=1.0)
 
         usage = tkinter.Label(window, font=("맑은 고딕", 11),
-                              text="만들 그래프의 수온 범위, 염분 범위, 표시될 등밀도선 를 입력하여 생성 버튼을 누르세요.\n그래프 파일은 SVG 파일로 저장되며, 저장될 경로를 설정해주세요.")
+                              text="만들 그래프의 수온 범위, 염분 범위, 표시될 등밀도선  입력하여 생성 버튼을 누르세요.\n그래프 파일은 SVG 파일로 저장되며, 저장될 경로를 설정해주세요.")
         usage.place(x=0, y=50, relwidth=1.0)
 
         tempLabel = tkinter.Label(window, font=("맑은 고딕", 11),
@@ -78,7 +78,7 @@ class TSDGenerator:
                                   text="==========================<등밀도선 간격>==========================")
         tempLabel.place(x=0, y=260, relwidth=1.0)
 
-        denseLevelLabel = tkinter.Label(window, font=("맑은 고딕", 11), text="등밀도선  = ")
+        denseLevelLabel = tkinter.Label(window, font=("맑은 고딕", 11), text="등밀도선 간격 = ")
         denseLevelLabel.place(x=0, y=285, width=150)
 
         self.densLevelEntry = tkinter.Entry(window)
